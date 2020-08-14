@@ -1,0 +1,91 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  direction: rtl;
+  /* قم بتحويل اتجاه الكتابة من اليسار لليمين */
+  font-family: 'Cairo', sans-serif;
+}
+
+nav {
+  /* #53a1eb أضف خلفية بلون  */
+  /* باستخدام خاصية background-color */
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-img {
+  /* أعطي الصورة عرض بقيمة */
+  /* 10% */
+ 
+  /* أعطي حاشية داخلية بقيمة */
+  /* 10px */
+  /* من جميع الاتجاهات */
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-item {
+  list-style: none;
+  padding: 10px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  /* غيّر لون الخط للون الأبيض */
+}
+
+.main-section {
+  width: 80%;
+  margin: auto;
+
+  /* أعطي حد أعلى لعرض القسم بقيمة  */
+  /* 1000px */
+  /* باستخدام خاصية  */
+  /* max-width */
+
+  /* قم بتوسيط النصوص في المنتصف */
+}
+
+.main-section h1 {
+    /* #53a1eb قم بتلوين النص باللون التالي  */
+}
+
+.main-img {
+  width: 100%;
+  /* قم بتحديد قيمة الارتفاع للصورة لتكون */
+  /* 100% */
+}
+
+footer {
+  background-color: #53a1eb;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+main,
+section {
+    /* أعطي عرض بقيمة */
+  /* 90% */
+  margin: 0 auto;
+}
+
+section h3 {
+  background-color: #e2e9f0;
+  color: #53a1eb;
+  /* قم بإضافة حاشية داخلية من الأعلى والأسفل بقيمة */
+  /* 10px */
+}
+
+section h2 {
+  text-align: center;
+  /* #e2e9f0 أضف خلفية بلون  */
+  color: #53a1eb;
+}
+
+section p {
+  text-align: justify;
+  line-height: 30px;
+}
