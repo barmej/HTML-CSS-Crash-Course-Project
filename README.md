@@ -1,6 +1,6 @@
 <body style="direction: rtl">
 
-<h1 style="direction: rtl">
+<h1 style="direction: ltr">
 متطلبات المشروع 
 </h1>
 <h2 style="direction: rtl">
